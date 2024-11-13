@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 1rem;
+  
+}
+
+header nav {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+
+}
+
+header nav ul li.logo {
+    font-size: 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header nav ul li a:hover {
+    color: rgb(142, 20, 122);
+}
+
+section {
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+background-color: rgba(44, 117, 142, 0.395);
+}
+
+section .section_wrapper {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .section_wrapper .section_item{
+    width: 50%;
+    font-size: 20px;
+}
+body
+
+
+section .section_wrapper .section_item img {
+    float: right;
+    padding: 28px;
+    width: 60%;
+    background-color: rgb(112, 69, 145);
+
+}
+button{
+    padding: 17px;
+    background-color: cornflowerblue;
+
+    color: rgb(20, 20, 20);
+    border: 3px solid black;
+}
+  button:hover{
+    background-color: blue;
+
+  }
+  section .section_wrapper .section_item:hover{
+color: rgb(206, 67, 8);
+  }
+  .d{
+    padding: 45px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    width:17%;
+    height: 150px;
+text-align: center;
+background-color: rgb(162, 159, 159)  ;
+color: rgb(4, 225, 225);
+border-radius: 10px;
+display: inline-flex;
+  }
+  .d h2{
+text-align: center;
+justify-self: first baseline;
+
+  }
+  .m h2{
+    padding: 20px;
+    text-align: center;
+justify-self: first baseline;
+  }
+.m{
+    padding: 45px ;
+        text-decoration: none;
+        list-style: none;
+        font-size: 30px;
+        width:17%;
+        height: 150px;
+    text-align: center;
+    background-color: rgb(162, 159, 159)  ;
+    color: rgb(4, 225, 225);
+    border-radius: 10px;
+    display: inline-flex;
+
+}
+ .m:hover{
+color: blue;
+background-color:rgb(60, 87, 87);
+
+ }
+.d:hover{
+color: blue;
+background-color:darkslategray;
+}
